@@ -6,3 +6,7 @@ Important Links:
 
 [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EQSauAZisp5Hui0OJznSGe4BaGH1aIgYUkoqSPMajcw1qw?e=a1i6V1)
 
+
+### Special Considerations (Imported libraries/dependencies)
+
+[Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
