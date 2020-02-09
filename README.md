@@ -25,4 +25,5 @@ Important Links:
 ### Special Considerations (Imported libraries/dependencies, references)
 
 [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
+
 [Apple's Privacy Page](https://www.apple.com/privacy/) for certain marked quotations in Project #2
