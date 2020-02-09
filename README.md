@@ -14,7 +14,15 @@ Important Links:
 
 [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EStJYsin1ApJsFn9e5WEtOcBWH6NXn9LiEbjIF30A70fSg?e=oYg02R) 
 
+#### Recommended Specs for the computer acting as a server: 
 
-### Special Considerations (Imported libraries/dependencies)
+## Project #3
+
+## Project #4
+
+## Project #5
+
+### Special Considerations (Imported libraries/dependencies, references)
 
 [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
+[Apple's Privacy Page](https://www.apple.com/privacy/) for certain marked quotations in Project #2
