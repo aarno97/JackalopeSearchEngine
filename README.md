@@ -2,15 +2,15 @@
 
 ## Project #1
 
-[Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EYIbo-SmF4dInRB99eNkdocBLQ8KTgaqNQ77NkG1uapG7w?e=U4r214)
+* [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EYIbo-SmF4dInRB99eNkdocBLQ8KTgaqNQ77NkG1uapG7w?e=U4r214)
 
-[Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EQSauAZisp5Hui0OJznSGe4BaGH1aIgYUkoqSPMajcw1qw?e=a1i6V1)
+* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EQSauAZisp5Hui0OJznSGe4BaGH1aIgYUkoqSPMajcw1qw?e=a1i6V1)
 
 ## Project #2
 
-[Project Report](https://www.google.com)
+* [Project Report](https://www.google.com)
 
-[Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EStJYsin1ApJsFn9e5WEtOcBWH6NXn9LiEbjIF30A70fSg?e=oYg02R) 
+* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EStJYsin1ApJsFn9e5WEtOcBWH6NXn9LiEbjIF30A70fSg?e=oYg02R) 
 
 #### Recommended Specs for the computer acting as a server: 
 
