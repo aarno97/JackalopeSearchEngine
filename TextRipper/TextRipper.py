@@ -9,16 +9,22 @@ https://stackoverflow.com/questions/36709165/beautifulsoup-object-of-type-respon
 import requests
 from bs4 import BeautifulSoup
 
-
+# define ripper, any URL passed to this program will have the text on the page returned
 def ripper(url):
+    # use requests to get text of HTML
     page = requests.get(url).text
+    # pass page to BeautifulSoup to parse
     soup = BeautifulSoup(page, 'html.parser')
+    # refactor parsed page to give strings of the text on a page
     for text in soup.stripped_strings:
         print(text)
+    # returns an array of strings with text in each one
     return soup.stripped_strings
 
 
-url = "https://www.cnn.com/2020/01/20/politics/travel-ban-immigration/index.html"
-# url = '{0}?action=render'.format(url)
+# //PLACE YOUR URL BELOW\\
+url = "https://en.wikipedia.org/wiki/Pokémon"
+# print the URL we are going to get
 print(url)
+# rip that URL up
 ripper(url)
