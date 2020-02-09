@@ -1,7 +1,5 @@
 # CS4366-SeniorProject
 
-Important Links: 
-
 ## Project #1
 
 [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EYIbo-SmF4dInRB99eNkdocBLQ8KTgaqNQ77NkG1uapG7w?e=U4r214)
