@@ -8,7 +8,7 @@
 
 ## Project #2
 
-* [Project Report](https://texastechuniversity-my.sharepoint.com/personal/jessica_brisbois_ttu_edu/_layouts/15/Doc.aspx?sourcedoc={342aca17-a367-4fdb-b21e-fb91911be983}&amp;action=embedview&amp;wdStartOn=1)
+* [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/r/personal/jessica_brisbois_ttu_edu/_layouts/15/Doc.aspx?sourcedoc=%7B342ACA17-A367-4FDB-B21E-FB91911BE983%7D&file=Report%202.docx&action=default&mobileredirect=true)
 
 * [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EStJYsin1ApJsFn9e5WEtOcBWH6NXn9LiEbjIF30A70fSg?e=oYg02R) 
 
