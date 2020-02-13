@@ -1,5 +1,13 @@
 from tkinter import Tk, Label, Button
 
+# This is a simple GUI to test if you've configured X11 and Xming correctly.
+
+# Save this program to the /home/yourusername directory on the CentOS machine
+
+# This program should be called from a terminal opend on your Windows Ubuntu Shell, this could be done via the command:
+#   sshpass -p 'somepassword' ssh -Y username@192.168.1.xxx python3.7 tk_test.py
+
+
 class MyFirstGUI:
     def __init__(self, master):
         self.master = master
