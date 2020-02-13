@@ -32,5 +32,7 @@ RAM: You will need 8GB or more of RAM
 ### Special Considerations (Imported libraries/dependencies, references)
 
   * [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
+  
+  * BeautifulSoup
 
   * [Apple's Privacy Page](https://www.apple.com/privacy/) for certain marked quotations in Project #2
