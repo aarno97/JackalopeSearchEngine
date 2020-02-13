@@ -21,6 +21,10 @@ RAM: You will need 8GB or more of RAM
 
 ## Project #3
 
+* [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EZDeyEKorCdDlFhIQcQjQY0BYVR7MDDdVxlUkxmrKiQeVQ?e=fJbi0s)
+
+* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EbwKqI9LX0BJsfz7PkISD0gB8wSEm5D94NKQdl8CgUgLng?e=gzuRBy)
+
 ## Project #4
 
 ## Project #5
