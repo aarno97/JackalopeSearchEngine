@@ -14,11 +14,11 @@
 
 #### Recommended Specs for the computer acting as a server: 
 
- * Processor: You will need a minimum of an i5 7th gen processor or comparable 6 thread processor
+* Processor: You will need a minimum of an i5 7th gen processor or comparable 6 thread processor
 
- * GPU: You will need an nvidia graphics card, 900 series or newer is preferable
+* GPU: You will need an nvidia graphics card, 900 series or newer is preferable
 
- * RAM: You will need 8GB or more of RAM
+* RAM: You will need 8GB or more of RAM
 
 ## Project #3
 
