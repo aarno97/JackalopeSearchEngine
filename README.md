@@ -34,6 +34,6 @@
 
   * [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
   
-  * BeautifulSoup
+  * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for stripping HTML pages
 
   * [Apple's Privacy Page](https://www.apple.com/privacy/) for certain marked quotations in Project #2
