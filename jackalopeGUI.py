@@ -1,5 +1,6 @@
 from tkinter import *
-from tkinter import Tk, Label, font, Button
+from tkinter import Tk, Label, font
+
 class Mainpage:
         def __init__(self, master):
                 self.master = master
@@ -63,8 +64,44 @@ class Mainpage:
                 self.button2.grid()
                 self.pad4.grid()
         #########################################################################################
+
+# note this page is shorter than the main page, but still performs the same functionality
+class SearchQuery:
+    def __init__(self, master):
+        self.master = master
+        self.titlefnt = font.Font(family = 'System', size = 25, weight = 'bold')
+        self.labelfnt = font.Font(family = 'System', size = 15, weight = 'bold')
+
+        self.pad = Frame(master, width = 600, height = 45, bg = "black")
+        self.pad1 = Frame(master, width = 600, height = 45, bg = "black")
+        self.pad2 = Frame(master, width = 600, height = 25, bg = "black")
+        self.pad3 = Frame(master, width = 600, height = 25, bg = "black")
+
+        self.label = Label(master, text = "Jackalope Search Engine", font = self.titlefnt, pady = 10, padx = 5, bg = "black", fg = "white")
+        self.label1 = Label(master, text = "Search Query:", font = self.labelfnt, pady = 10, padx = 5, bg = "black", fg = "white")
+
+        self.entry = Entry(master)
+        self.entry.focus_set()
+        
+        self.entrytext = ""
+
+        def save():
+            entrytext = self.entry.get()
+        
+        self.button = Button(master, text = "search", width = 10, command = save)
+        
+        self.pad.grid()
+        self.label.grid()
+        self.pad1.grid()
+        self.label1.grid()
+        self.entry.grid()
+        self.pad2.grid()
+        self.button.grid()
+        self.pad3.grid()
+   
 root = Tk()
 root.title("JSE")
 root.configure(bg = "black")
 gui = Mainpage(root)
+#gui = SearchQuery(root)
 root.mainloop()
