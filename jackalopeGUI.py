@@ -1,6 +1,5 @@
 from tkinter import *
-from tkinter import Tk, Label, font
-
+from tkinter import Tk, Label, font, Button
 class Mainpage:
         def __init__(self, master):
                 self.master = master
@@ -15,6 +14,7 @@ class Mainpage:
                 self.pad5 = Frame(master, width=600, height=25, bg="black")
                 self.pad6 = Frame(master, width=600, height=25, bg="black")
                 self.pad7 = Frame(master, width=600, height=25, bg="black")
+                self.pad8 = Frame(master, width=600, height=45, bg="black")
         #######################################################################################
                 self.label = Label(master, text="Jackalope Search Engine", font = self.titlefnt, pady = 10, padx = 5, bg = "black", fg = "white")
                 self.label1 = Label(master, text="Server username:", font = self.labelfnt, pady = 10, padx = 5, bg = "black", fg = "white")
@@ -41,9 +41,10 @@ class Mainpage:
                 def save2():
                     entrytext2 = self.entry2.get()
         ########################################################################################
-                self.button = Button(master, text="save", width=10, command=save)
-                self.button1 = Button(master, text="save", width=10, command=save1)
-                self.button2 = Button(master, text="save", width=10, command=save2)
+                self.button = Button(master, text="Save", width=10, command=save)
+                self.button1 = Button(master, text="Save", width=10, command=save1)
+                self.button2 = Button(master, text="Save", width=10, command=save2)
+                self.button3 = Button(master, text="Start searching", width=20, command=secondpage)
         ########### The "grid()" command actually puts the widgets in the display box. #########
                 self.pad.grid()
                 self.label.grid() #jackalope search engine
@@ -63,45 +64,44 @@ class Mainpage:
                 self.pad7.grid()
                 self.button2.grid()
                 self.pad4.grid()
+                self.button3.grid()
+                self.pad8.grid()
         #########################################################################################
 
-# note this page is shorter than the main page, but still performs the same functionality
+
 class SearchQuery:
-    def __init__(self, master):
-        self.master = master
-        self.titlefnt = font.Font(family = 'System', size = 25, weight = 'bold')
-        self.labelfnt = font.Font(family = 'System', size = 15, weight = 'bold')
-
-        self.pad = Frame(master, width = 600, height = 45, bg = "black")
-        self.pad1 = Frame(master, width = 600, height = 45, bg = "black")
-        self.pad2 = Frame(master, width = 600, height = 25, bg = "black")
-        self.pad3 = Frame(master, width = 600, height = 25, bg = "black")
-
-        self.label = Label(master, text = "Jackalope Search Engine", font = self.titlefnt, pady = 10, padx = 5, bg = "black", fg = "white")
-        self.label1 = Label(master, text = "Search Query:", font = self.labelfnt, pady = 10, padx = 5, bg = "black", fg = "white")
-
-        self.entry = Entry(master)
-        self.entry.focus_set()
-        
-        self.entrytext = ""
-
-        def save():
-            entrytext = self.entry.get()
-        
-        self.button = Button(master, text = "search", width = 10, command = save)
-        
-        self.pad.grid()
-        self.label.grid()
-        self.pad1.grid()
-        self.label1.grid()
-        self.entry.grid()
-        self.pad2.grid()
-        self.button.grid()
-        self.pad3.grid()
-   
+        def __init__(self, master):
+                self.master = master
+                self.titlefnt = font.Font(family='System', size=25, weight='bold')
+                self.labelfnt = font.Font(family='System', size=15, weight='bold')
+                self.pad = Frame(master, width=600, height=45, bg="black")
+                self.pad1 = Frame(master, width=600, height=45, bg="black")
+                self.pad2 = Frame(master, width=600, height=25, bg="black")
+                self.pad3 = Frame(master, width=600, height=25, bg="black")
+                self.label = Label(master, text="Jackalope Search Engine", font=self.titlefnt, pady=10, padx=5, bg="black", fg="white")
+                self.label1 = Label(master, text="Search Query:", font=self.labelfnt, pady=10, padx=5, bg="black", fg="white")
+                self.entry = Entry(master)
+                self.entry.focus_set()
+                self.entrytext = ""
+                def save():
+                        entrytext = self.entry.get()
+                self.button = Button(master, text="Search", width=10, command=save)
+                self.pad.grid()
+                self.label.grid()
+                self.pad1.grid()
+                self.label1.grid()
+                self.entry.grid()
+                self.pad2.grid()
+                self.button.grid()
+                self.pad3.grid()
+def secondpage():
+        branch = Tk()
+        branch.title("JSE")
+        branch.configure(bg = "black")
+        search = SearchQuery(branch)
+        branch.mainloop()
 root = Tk()
 root.title("JSE")
 root.configure(bg = "black")
 gui = Mainpage(root)
-#gui = SearchQuery(root)
 root.mainloop()
