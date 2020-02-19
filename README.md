@@ -32,6 +32,8 @@ To pull necessary files and other related items, pull the GitHub by doing `git c
 
 For this project that piece of code would be: `git clone https://github.com/apape97/CS4366-SeniorProject`
 
+To update your Git Repository on your local machine: `git pull` while in the directory of the repository. 
+
 ## Project #5
 
 ### Special Considerations (Imported libraries/dependencies, references)
