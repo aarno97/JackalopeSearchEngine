@@ -3,6 +3,9 @@ https://docs.scrapy.org/en/latest/topics/settings.html
 https://docs.scrapy.org/en/latest/faq.html#faq-bfo-dfo
 """
 
+"""I am scraping this part of the project in favor of utilizing BeautifulSoup, this code will be kept until the end 
+of the project before being deleted in case it is required. """
+
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from scrapy.downloadermiddlewares import robotstxt
