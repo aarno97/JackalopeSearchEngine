@@ -1,5 +1,6 @@
 """Sources:
 https://pythonspot.com/extract-links-from-webpage-beautifulsoup/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 """
 
 # import libraries
@@ -18,7 +19,8 @@ def linker(url):
     links = []
     for link in soup.findAll('a', attrs={'href': re.compile("^http://")}):
         links.append(link.get('href'))
-    print(links)
+    for reference in links:
+        print(reference)
     return links
 
 

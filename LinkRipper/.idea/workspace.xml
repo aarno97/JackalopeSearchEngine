@@ -5,190 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="563dfa74-74cc-4e21-a72c-665a035c3bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LinkRipper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkRipper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/beautifulsoup4-4.8.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/beautifulsoup4-4.8.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/beautifulsoup4-4.8.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/beautifulsoup4-4.8.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/beautifulsoup4-4.8.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/builder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/builder/_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/dammit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/diagnose.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_soup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4/tests/test_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.11.28.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi/cacert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/big5freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/big5prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/chardistribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/charsetgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/charsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/cli/chardetect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/codingstatemachine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/cp949prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/escprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/escsm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/eucjpprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/euckrfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/euckrprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/euctwfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/euctwprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/gb2312freq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/gb2312prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/hebrewprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/jisfreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/jpcntx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langbulgarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langcyrillicmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langgreekmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langhebrewmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langhungarianmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langthaimodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/langturkishmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/latin1prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/mbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/mbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/mbcssm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/sbcharsetprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/sbcsgroupprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/sjisprober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/universaldetector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/utf8prober.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.9.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.9.dist-info/LICENSE.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.9.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.9.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.9.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.9.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/codec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/idnadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/intranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/package_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna/uts46data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.23.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.23.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.23.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.23.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.23.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.23.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/_internal_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/adapters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/certs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/hooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/packages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/sessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/status_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve-1.9.5.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve-1.9.5.dist-info/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve-1.9.5.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve-1.9.5.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve-1.9.5.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve-1.9.5.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve/__meta__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve/css_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve/css_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve/css_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/soupsieve/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.25.8.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.25.8.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.25.8.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.25.8.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.25.8.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.25.8.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/connectionpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/contrib/socks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/filepost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/packages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/packages/backports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/packages/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/poolmanager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/retry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/ssl_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/timeout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/util/wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../usercs4366@10.203.65.243/TextRipper/.idea/TextRipper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebCrawler/ItsyBitsySpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebCrawler/ItsyBitsySpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/aaronarnold.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkRipper.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkRipper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercs4366@10.203.65.243/TextRipper/.idea/TextRipper.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aaron Arnold &lt;pape.aaron97@icloud.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Y2dMVWvWT6uPaEJJw0RKx4ur3A" />
@@ -222,6 +47,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
+  <component name="RunManager">
+    <configuration name="LinkRipper" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LinkRipper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkRipper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -232,8 +81,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582144574266</updated>
-      <workItem from="1582144577393" duration="482000" />
+      <workItem from="1582144577393" duration="531000" />
+      <workItem from="1582145233767" duration="418000" />
     </task>
+    <task id="LOCAL-00001" summary="Created and completed LinkRipper">
+      <created>1582145102355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582145102355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,11 +99,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created and completed LinkRipper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and completed LinkRipper" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="721" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582145419045">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="721" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1582145419045" />
     <state x="641" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582144976511">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="641" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1792.1026@0.23.1792.1026" timestamp="1582144976511" />
+    <state x="598" y="141" key="CommitChangelistDialog2" timestamp="1582145101982">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="598" y="141" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1582145101982" />
+    <state width="854" height="279" key="GridCell.Tab.0.bottom" timestamp="1582145794864">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="854" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1582145794864" />
+    <state width="854" height="279" key="GridCell.Tab.0.center" timestamp="1582145794863">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="854" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1582145794863" />
+    <state width="854" height="279" key="GridCell.Tab.0.left" timestamp="1582145794862">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="854" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1582145794862" />
+    <state width="854" height="279" key="GridCell.Tab.0.right" timestamp="1582145794863">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="854" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1582145794863" />
+    <state x="714" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1582145234851">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="714" y="370" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1582145234851" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LinkRipper$LinkRipper.coverage" NAME="LinkRipper Coverage Results" MODIFIED="1582145794854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
