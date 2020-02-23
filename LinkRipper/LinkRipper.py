@@ -1,6 +1,13 @@
 """Sources:
 https://pythonspot.com/extract-links-from-webpage-beautifulsoup/
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+How to run this program in terminal:
+1. Open Terminal
+2. cd into the folder where LinkRipper is held. On the original machine this command was:
+% cd Documents/GitHub/CS4366-SeniorProject/TextRipper
+3. run the program using the python3 command
+% python3 TextRipper.py
 """
 
 # import libraries
@@ -25,7 +32,7 @@ def linker(url):
 
 
 # //PLACE YOUR URL BELOW\\
-website = "https://en.wikipedia.org/wiki/Pokémon"
+website = "https://en.wikipedia.org/wiki/South_Park"
 # print the URL we are going to get
 print(website)
 # find those links
