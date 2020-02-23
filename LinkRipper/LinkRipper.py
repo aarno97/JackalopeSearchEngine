@@ -5,9 +5,9 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 How to run this program in terminal:
 1. Open Terminal
 2. cd into the folder where LinkRipper is held. On the original machine this command was:
-% cd Documents/GitHub/CS4366-SeniorProject/TextRipper
+% cd Documents/GitHub/CS4366-SeniorProject/LinkRipper
 3. run the program using the python3 command
-% python3 TextRipper.py
+% python3 LinkRipper.py
 """
 
 # import libraries
