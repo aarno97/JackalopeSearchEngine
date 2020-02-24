@@ -28,6 +28,8 @@
 
 ## Project #4
 
+*The below commands use terminal on MacOS, based on your OS you may need to change them.*
+
 To pull necessary files and other related items, pull the GitHub by performing: `git clone <url>`
 
 For this project that piece of code would be: `git clone https://github.com/apape97/CS4366-SeniorProject`
