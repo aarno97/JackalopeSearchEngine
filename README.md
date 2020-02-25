@@ -40,6 +40,8 @@ To update your Git Repository on your local machine: `git pull` while in the dir
 
 ### Special Considerations (Imported libraries/dependencies, references)
 
+  * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) for without them, this project would be nothing. In particular the [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) 
+
   * [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
   
   * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for stripping HTML pages
