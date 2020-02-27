@@ -36,7 +36,11 @@ For this project that piece of code would be: `git clone https://github.com/apap
 
 To update your Git Repository on your local machine: `git pull` while in the directory of the repository. 
 
+*Project 4 includes a partial implementation* 
+
 ## Project #5
+
+*Project 5 will be the full implementation of Jackalope Search 
 
 ### Special Considerations (Imported libraries/dependencies, references)
 
