@@ -40,7 +40,7 @@ To update your Git Repository on your local machine: `git pull` while in the dir
 
 ## Project #5
 
-*Project 5 will be the full implementation of Jackalope Search 
+*Project 5 will be the full implementation of Jackalope Search*
 
 ### Special Considerations (Imported libraries/dependencies, references)
 
