@@ -1,4 +1,4 @@
-# CS4366-SeniorProject
+# Jackalope Search Engine
 
 ## Project #1
 
