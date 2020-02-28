@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="563dfa74-74cc-4e21-a72c-665a035c3bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4-0.0.1-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4-0.0.1-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4-0.0.1-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4-0.0.1-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4-0.0.1-py3.7.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/bs4-0.0.1-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LinkRipper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LinkRipper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkRipper.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkRipper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="LinkRipper" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -84,6 +92,9 @@
       <workItem from="1582236524331" duration="153000" />
       <workItem from="1582236687302" duration="253000" />
       <workItem from="1582419222672" duration="242000" />
+      <workItem from="1582913810390" duration="71000" />
+      <workItem from="1582913891870" duration="55000" />
+      <workItem from="1582913958063" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="Created and completed LinkRipper">
       <created>1582145102355</created>
@@ -150,10 +161,14 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="854" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1582236946358" />
-    <state x="714" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1582419223303">
+    <state x="318" y="175" key="SettingsEditor" timestamp="1582914097285">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="714" y="370" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1582419223303" />
+    <state x="318" y="175" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1582914097285" />
+    <state x="714" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1582913958767">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="714" y="370" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1582913958767" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LinkRipper$LinkRipper.coverage" NAME="LinkRipper Coverage Results" MODIFIED="1582236922536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
