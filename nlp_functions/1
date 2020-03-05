@@ -1,0 +1,10 @@
+import wikipedia
+import spacy
+
+# initial_search_query.py 
+
+temp_search = "Last Day of WWII"
+
+def tokenize_search_query(search_query):
+	print(search_query)
+
