@@ -5,64 +5,87 @@
 
 # This script houses the functions for processing an initial search query.
 
-def get_decoys(target):
-	decoy1_search = []
-	import wikipedia
-	while len(decoy1_search) < target:
-		try:
-			decoy1 = wikipedia.page(wikipedia.random())
-			decoy1_query = wikipedia.search(decoy1)
-			
-			for i in range(len(decoy1_query)):
-				if len(decoy1_search) >= target:
+class Tokenize_search_query:
+
+	def __init__(self, given_input):
+		self.input_query = given_input
+		self.all_links = []
+		self.basic_search = []
+		self.decoy1_search = []
+		self.decoy2_search = []
+		self.start_search_query()
+		self.write_binary()
+ 
+
+	def get_decoys(self, target):
+		decoy1_search = []
+		import wikipedia
+		while len(decoy1_search) < target:
+			try:
+				decoy1 = wikipedia.page(wikipedia.random())
+				decoy1_query = wikipedia.search(decoy1)
 				
-					break
-				else:
-					try:	
-						member0 = wikipedia.page(decoy1_query[i])
-						decoy1_search += member0.references
-						
-					except:	
-						continue
+				for i in range(len(decoy1_query)):
+					if len(decoy1_search) >= target:
+					
+						break
+					else:
+						try:	
+							member0 = wikipedia.page(decoy1_query[i])
+							member0_list = member0.references
+							for j in range(len(member0_list)):
+								decoy1_search += [['0', member0_list[j]]]
+								if len(decoy1_search) >= target:
+									break
+							
+						except:	
+							continue
 
-		except:
-			continue
+			except:
+				continue
 
-	return decoy1_search
+		return decoy1_search
 
-def tokenize_search_query(search_query):
-	import wikipedia
+	def start_search_query(self):
+		import wikipedia
+		
+		wikipedia.set_lang("en")
+		print(self.input_query)	
+		basic_query =  wikipedia.search(self.input_query)
+		print(len(basic_query))	
+		print(basic_query)	
+		for i in range(len(basic_query)):
+			if len(self.basic_search) >= 256:
+				break
+			try:	
+				member0 = wikipedia.page(basic_query[i])
+				member0_list = member0.references
+				for j in range(len(member0_list)):
+					self.basic_search += [['1', member0_list[j]]]
+					if len(self.basic_search) >= 256:
+						break
+			except:
+				continue
+		
+		self.decoy1_search = self.get_decoys(len(self.basic_search))
+		self.decoy2_search = self.get_decoys(len(self.basic_search))
 	
-	wikipedia.set_lang("en")
-	print(search_query)
-	
-	basic_query =  wikipedia.search(search_query)
-	
-	basic_search = []
-	
-	for i in range(len(basic_query)):
-		if len(basic_search) >= 256:
-			break
-		try:	
-			member0 = wikipedia.page(basic_query[i])
-			basic_search += member0.references
-		except:
-			continue
-	
-	decoy1_search = get_decoys(len(basic_search))
-	decoy2_search = get_decoys(len(basic_search))
-
 			
+		print(self.basic_search)
+		print(len(self.decoy1_search))
+		print(len(self.decoy2_search))
+			
+	def write_binary(self):
+		output_file = open("search_domain.txt", "w")
 
-	wiki_pages = []
+		for i in range(len(self.basic_search)):
+			output_file.write(self.basic_search[i][0]+self.basic_search[i][1]+'\n')
+			output_file.write(self.decoy1_search[i][0]+self.decoy1_search[i][1]+'\n')
+			output_file.write(self.decoy1_search[i][0]+self.decoy1_search[i][1]+'\n')
 
-	
+
+		output_file.close()
 		
-	print(len(basic_search))
-	print(len(decoy1_search))
-	print(len(decoy2_search))
 		
 
-
-
-tokenize_search_query("Paul Newman")
+app = Tokenize_search_query("Paul Newman")
