@@ -7,7 +7,7 @@ https://stackoverflow.com/questions/36709165/beautifulsoup-object-of-type-respon
 Instructions on running this python script in terminal:
 1. Open Terminal
 2. cd into the folder where LinkRipper is held. On the original machine this command was:
-% cd Documents/GitHub/JackalopeSearchEngine/TextRipper
+% cd Documents/GitHub/CS4366-SeniorProject/TextRipper
 3. run the program using the python3 command
 % python3 TextRipper.py
 """
@@ -31,8 +31,9 @@ def ripper(url):
 	for t in text:
 		if t.parent.name not in blacklist:
 			output += '{} '.format(t)
+			break
 
-	print(output)
+	#print(output)
 
 	# returns an array of strings with text in each one
 	return soup.stripped_strings
@@ -43,6 +44,5 @@ def ripper(url):
 url = sys.argv[1]
 # url = "https://en.wikipedia.org/wiki/Pokémon"
 # print the URL we are going to get
-print(url)
 # rip that URL up
 ripper(url)
