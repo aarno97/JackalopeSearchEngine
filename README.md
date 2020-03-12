@@ -2,13 +2,13 @@
 
 ## Team Members
 
-* [Aaron Arnold] 
+* [Aaron Arnold](https://github.com/aarno97)
 
-* [Sarah Dominy]
+* [Sarah Dominy](https://github.com/SarahDominy)
 
-* [Anton Rakos] 
+* [Anton Rakos](https://github.com/AntonAlbertovich)
 
-* [Jeremy Wenzel]
+* [Jeremy Wenzel](https://github.com/jewenzel13)
 
 ## Project #1
 
