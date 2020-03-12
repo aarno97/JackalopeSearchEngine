@@ -2,6 +2,8 @@
 
 ## Team Members
 
+*Meet the team members! Click each name to link to their GitHub profile*
+
 * [Aaron Arnold](https://github.com/aarno97)
 
 * [Sarah Dominy](https://github.com/SarahDominy)
