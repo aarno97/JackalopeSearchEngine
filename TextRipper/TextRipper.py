@@ -7,7 +7,7 @@ https://stackoverflow.com/questions/36709165/beautifulsoup-object-of-type-respon
 Instructions on running this python script in terminal:
 1. Open Terminal
 2. cd into the folder where LinkRipper is held. On the original machine this command was:
-% cd Documents/GitHub/CS4366-SeniorProject/TextRipper
+% cd Documents/GitHub/JackalopeSearchEngine/TextRipper
 3. run the program using the python3 command
 % python3 TextRipper.py
 """
