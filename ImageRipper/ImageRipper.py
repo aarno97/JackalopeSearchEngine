@@ -1,6 +1,7 @@
 """
 Sources:
 https://www.thepythoncode.com/article/download-web-page-images-python
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 How to run this program in terminal:
 1. Open Terminal
