@@ -1,5 +1,15 @@
 # Jackalope Search Engine
 
+## Team Members
+
+* [Aaron Arnold] 
+
+* [Sarah Dominy]
+
+* [Anton Rakos] 
+
+* [Jeremy Wenzel]
+
 ## Project #1
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EYIbo-SmF4dInRB99eNkdocBLQ8KTgaqNQ77NkG1uapG7w?e=U4r214)
