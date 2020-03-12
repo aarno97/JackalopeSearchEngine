@@ -3,7 +3,11 @@ Sources:
 https://www.thepythoncode.com/article/download-web-page-images-python
 
 How to run this program in terminal:
-
+1. Open Terminal
+2. cd into the folder where LinkRipper is held. On the original machine this command was:
+% cd Documents/GitHub/JackalopeSearchEngine/ImageRipper
+3. run the program using the python3 command
+% python3 ImageRipper.py
 """
 
 # import libraries
