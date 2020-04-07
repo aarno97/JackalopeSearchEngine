@@ -60,8 +60,90 @@ class Tokenize_search_query:
 			try:	
 				member0 = wikipedia.page(basic_query[i])
 				member0_list = member0.references
+				go_0 = 1
+				go_1 = 0
+				go_2 = 0
+				go_3 = 0
+				go_4 = 0
+				go_5 = 0
+				go_6 = 0
+				go_7 = 0
+				go_8 = 0
+				go_9 = 0
+				go_10 = 0
+				go_11 = 0
+				go_12 = 0
+				go_13 = 0
+				go_14 = 0
+				go_15 = 0
 				for j in range(len(member0_list)):
-					self.basic_search += [['1', member0_list[j]]]
+					if(go_0 == 1):
+						self.basic_search += [['1', member0_list[j]]]
+						go_0 = 0
+						go_1 = 1
+					elif(go_1 == 1):
+						self.basic_search += [['2', member0_list[j]]]
+						go_1 = 0
+						go_2 = 1
+					elif(go_2 == 1):
+						self.basic_search += [['3', member0_list[j]]]
+						go_2 = 0
+						go_3 = 1
+					elif(go_3 == 1):
+						self.basic_search += [['4', member0_list[j]]]
+						go_3 = 0
+						go_4 = 1
+					elif(go_4 == 1):
+						self.basic_search += [['5', member0_list[j]]]
+						go_4 = 0
+						go_5 = 1
+					elif(go_5 == 1):
+						self.basic_search += [['6', member0_list[j]]]
+						go_5 = 0
+						go_6 = 1
+					elif(go_6 == 1):
+						self.basic_search += [['7', member0_list[j]]]
+						go_6 = 0
+						go_7 = 1
+					elif(go_7 == 1):
+						self.basic_search += [['8', member0_list[j]]]
+						go_7 = 0
+						go_8 = 1
+					elif(go_8 == 1):
+						self.basic_search += [['9', member0_list[j]]]
+						go_8 = 0
+						go_9 = 1
+					elif(go_9 == 1):
+						self.basic_search += [['a', member0_list[j]]]
+						go_9 = 0
+						go_10 = 1
+					elif(go_10 == 1):
+						self.basic_search += [['b', member0_list[j]]]
+						go_10 = 0
+						go_11 = 1
+					elif(go_11 == 1):
+						self.basic_search += [['c', member0_list[j]]]
+						go_11 = 0
+						go_12 = 1
+					elif(go_12 == 1):
+						self.basic_search += [['d', member0_list[j]]]
+						go_12 = 0
+						go_13 = 1
+					elif(go_13 == 1):
+						self.basic_search += [['e', member0_list[j]]]
+						go_13 = 0
+						go_14 = 1
+					elif(go_14 == 1):
+						self.basic_search += [['f', member0_list[j]]]
+						go_14 = 0
+						go_15 = 1
+					elif(go_15 == 1):
+						self.basic_search += [['g', member0_list[j]]]
+						go_15 = 0
+						go_0 = 1
+
+
+
 					if len(self.basic_search) >= 256:
 						break
 			except:
@@ -81,11 +163,16 @@ class Tokenize_search_query:
 		for i in range(len(self.basic_search)):
 			output_file.write(self.basic_search[i][0]+self.basic_search[i][1]+'\n')
 			output_file.write(self.decoy1_search[i][0]+self.decoy1_search[i][1]+'\n')
-			output_file.write(self.decoy1_search[i][0]+self.decoy1_search[i][1]+'\n')
+			output_file.write(self.decoy2_search[i][0]+self.decoy2_search[i][1]+'\n')
 
 
 		output_file.close()
 		
-		
+import sys
+import os
 
-app = Tokenize_search_query("Paul Newman")
+search_list = sys.argv[1:]	
+search_this = ' '.join(map(str,search_list ))
+app = Tokenize_search_query(search_this)
+os.system("rm logged*")
+os.system("./runthisthread")
