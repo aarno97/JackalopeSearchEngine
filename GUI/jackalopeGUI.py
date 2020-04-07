@@ -24,18 +24,15 @@ class Mainpage:
                 self.label3 = Label(master, text="Server password:", font=self.labelfnt, pady=10, padx=5, bg="black", fg="white")
         ########### The "entry" widgets are the text boxes that take the text ###################
                 self.entry = Entry(master)
-                self.entry.focus_set()
-                self.entry1 = Entry(master)
-                self.entry1.focus_set()
-                self.entry2 = Entry(master)
+                self.entry.focus_set()                                                                                                                                                                                                                       self.entry1 = Entry(master, show = "*")                                                                                                                                                                                                      self.entry1.focus_set()                                                                                                                                                                                                                      self.entry2 = Entry(master)
                 self.entry2.focus_set()
         #########################################################################################
         ########### Second page is called when you click the button #############################
-	########### This system call uses the entered information to log in to the server #######
+        ########### This system call uses the entered information to log in to the server #######
         ########### and immediately runs the C++ file that is already compiled and calls ########
         ########### the second page of the Gui which is a python file stored on the server. #####
                 def secondpage():
-                        os.system("sshpass -p \'" + self.entry1.get() + "\' ssh -Y " + self.entry.get() + "@" + self.entry2.get() + " ./runningcinthenineties")
+                        os.system("sshpass -p \'" + self.entry1.get() + "\' ssh -Y " + self.entry.get() + "@" + self.entry2.get() + " ./JackalopeSearchEngine-master/GUI/runningcinthenineties")
         ########################################################################################
                 self.button3 = Button(master, text="Login", width=20, command=secondpage)
         ########### The "grid()" command actually puts the widgets in the display box. #########
