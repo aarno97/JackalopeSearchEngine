@@ -35,9 +35,11 @@ def ripper(url):
 		full_stop +=1 
 		if(full_stop > 150):
 			break
+	
+	print("############")
 	print(url)
 	print(soup.title.string)
-	print("############")
+
 	#print(output)
 	# returns an array of strings with text in each one
 	return soup.stripped_strings
