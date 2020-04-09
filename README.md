@@ -60,6 +60,10 @@
 
 *Project 5 will be the full implementation of Jackalope Search*
 
+* [Progress Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
+
+* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
+
 ### Special Considerations (Imported libraries/dependencies, references)
 
   * [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) for without them, this project would be nothing. In particular the [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page) 
