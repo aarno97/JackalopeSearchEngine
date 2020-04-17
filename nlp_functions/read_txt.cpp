@@ -84,9 +84,9 @@ void* screenData( void *filename )
         if(filename)
         {
 		string this_name = name;
-		string url_val = this_name.substr(0,1);
-		string url_link = this_name.substr(1);
-		if(strcmp( url_val.c_str(), "0") != 0){
+		string url_val = this_name.substr(0,2);
+		string url_link = this_name.substr(2);
+		if(strcmp( url_val.c_str(), "00") != 0){
 		//pthread_mutex_lock(&lock);
 
 		system( ("timeout 2 python3.7 TextRipper/TextRipper.py " + url_link + " >> logged_results"+url_val + " 2>&1").c_str() );

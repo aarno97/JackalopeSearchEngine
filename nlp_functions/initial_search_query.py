@@ -34,7 +34,7 @@ class Tokenize_search_query:
 							member0 = wikipedia.page(decoy1_query[i])
 							member0_list = member0.references
 							for j in range(len(member0_list)):
-								decoy1_search += [['0', member0_list[j]]]
+								decoy1_search += [['00', member0_list[j]]]
 								if len(decoy1_search) >= target:
 									break
 							
@@ -78,67 +78,67 @@ class Tokenize_search_query:
 				go_15 = 0
 				for j in range(len(member0_list)):
 					if(go_0 == 1):
-						self.basic_search += [['1', member0_list[j]]]
+						self.basic_search += [['01', member0_list[j]]]
 						go_0 = 0
 						go_1 = 1
 					elif(go_1 == 1):
-						self.basic_search += [['2', member0_list[j]]]
+						self.basic_search += [['02', member0_list[j]]]
 						go_1 = 0
 						go_2 = 1
 					elif(go_2 == 1):
-						self.basic_search += [['3', member0_list[j]]]
+						self.basic_search += [['03', member0_list[j]]]
 						go_2 = 0
 						go_3 = 1
 					elif(go_3 == 1):
-						self.basic_search += [['4', member0_list[j]]]
+						self.basic_search += [['04', member0_list[j]]]
 						go_3 = 0
 						go_4 = 1
 					elif(go_4 == 1):
-						self.basic_search += [['5', member0_list[j]]]
+						self.basic_search += [['05', member0_list[j]]]
 						go_4 = 0
 						go_5 = 1
 					elif(go_5 == 1):
-						self.basic_search += [['6', member0_list[j]]]
+						self.basic_search += [['06', member0_list[j]]]
 						go_5 = 0
 						go_6 = 1
 					elif(go_6 == 1):
-						self.basic_search += [['7', member0_list[j]]]
+						self.basic_search += [['07', member0_list[j]]]
 						go_6 = 0
 						go_7 = 1
 					elif(go_7 == 1):
-						self.basic_search += [['8', member0_list[j]]]
+						self.basic_search += [['08', member0_list[j]]]
 						go_7 = 0
 						go_8 = 1
 					elif(go_8 == 1):
-						self.basic_search += [['9', member0_list[j]]]
+						self.basic_search += [['09', member0_list[j]]]
 						go_8 = 0
 						go_9 = 1
 					elif(go_9 == 1):
-						self.basic_search += [['a', member0_list[j]]]
+						self.basic_search += [['10', member0_list[j]]]
 						go_9 = 0
 						go_10 = 1
 					elif(go_10 == 1):
-						self.basic_search += [['b', member0_list[j]]]
+						self.basic_search += [['11', member0_list[j]]]
 						go_10 = 0
 						go_11 = 1
 					elif(go_11 == 1):
-						self.basic_search += [['c', member0_list[j]]]
+						self.basic_search += [['12', member0_list[j]]]
 						go_11 = 0
 						go_12 = 1
 					elif(go_12 == 1):
-						self.basic_search += [['d', member0_list[j]]]
+						self.basic_search += [['13', member0_list[j]]]
 						go_12 = 0
 						go_13 = 1
 					elif(go_13 == 1):
-						self.basic_search += [['e', member0_list[j]]]
+						self.basic_search += [['14', member0_list[j]]]
 						go_13 = 0
 						go_14 = 1
 					elif(go_14 == 1):
-						self.basic_search += [['f', member0_list[j]]]
+						self.basic_search += [['15', member0_list[j]]]
 						go_14 = 0
 						go_15 = 1
 					elif(go_15 == 1):
-						self.basic_search += [['g', member0_list[j]]]
+						self.basic_search += [['16', member0_list[j]]]
 						go_15 = 0
 						go_0 = 1
 
