@@ -1,0 +1,60 @@
+############
+http://www.att.com/gen/investor-relations?pid=7815
+Edward Whitacre - Chairman and Chief Executive Officer of AT&T
+Bottom Text
+############
+http://www.dailytoreador.com/archives/article_00ce190e-d388-5dc9-acdf-563f564aad59.html
+Expansion of Jones AT&T Stadium expected to bring more than appeal  | Archives | dailytoreador.com
+Bottom Text
+############
+http://www.dailytoreador.com/news/article_f2b5fb50-463b-11e2-af05-001a4bcf6878.html
+Expansion on Jones AT&T Stadium to begin Jan. 2013 | News | dailytoreador.com
+Bottom Text
+############
+http://www.kcbd.com/Global/story.asp?s=8488917
+404 / Page Not Found
+Bottom Text
+############
+http://lubbockonline.com/stories/080708/spo_315089828.shtml
+404 - Page not found - Lubbock Avalanche-Journal - Lubbock, TX
+Bottom Text
+############
+http://grad.ba.ttu.edu/GSC_Tech_Lubbock/GSC_Tech_and_Lubbock_History.asp
+Traceback (most recent call last):
+  File "TextRipper/TextRipper.py", line 52, in <module>
+    ripper(url)
+  File "TextRipper/TextRipper.py", line 39, in ripper
+    print(soup.title.string)
+AttributeError: 'NoneType' object has no attribute 'string'
+############
+http://www.depts.ttu.edu/officialpublications/facultyHB/general.php
+Office of Official Publications | Faculty Handbook | Official Publications  | TTU
+Bottom Text
+############
+http://nrhc.ttu.edu/about/
+Welcome to the NRHC | National Ranching Heritage Center  | TTU
+Bottom Text
+############
+http://today.ttu.edu/2014/09/texas-tech-enrollment-figures-shatter-previous-numbers/
+Texas Tech Enrollment Figures Shatter Previous Numbers | September | 2014 | Texas Tech Today | TTU
+Bottom Text
+############
+http://www.jsc.nasa.gov/Bios/htmlbios/lockhart.html
+Johnson Space Center Home | NASA
+Bottom Text
+############
+https://www.chron.com/news/houston-texas/article/Perry-suggests-AT-T-executive-for-UT-chancellor-1767915.php
+Perry suggests AT&T executive for UT chancellor job - Houston Chronicle
+Bottom Text
+############
+https://www.usnews.com/education/online-education/texas-tech-university-229115
+Access Denied
+Bottom Text
+############
+https://web.archive.org/web/20061125131007/http://www.goarmy.com/hhm/profiles_cavazos.jsp
+GoArmy.com > Celebrating Hispanic Heritage > Profiles in History > Richard E. Cavazos
+Bottom Text
+############
+https://web.archive.org/web/20080515150012/http://www.texasmonthly.com/collegeguide/2008/detail/46
+Texas Monthly: College Guide 2008
+Bottom Text
