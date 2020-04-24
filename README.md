@@ -60,7 +60,7 @@
 
 *Project 5 will be the full implementation of Jackalope Search*
 
-* [Progress Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
+* [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
 
 * [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
 
