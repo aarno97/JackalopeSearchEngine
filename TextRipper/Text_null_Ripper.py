@@ -18,8 +18,7 @@ import sys
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 import urllib.request
-import lxml.html
-import urllib
+
 # define ripper, any URL passed to this program will have the text on the page returned
 def ripper(url):
 	res = requests.get(url)
@@ -28,19 +27,14 @@ def ripper(url):
 	text = soup.find_all(text=True)
 	output = ''
 	blacklist = ['[document]','noscript','header','html','meta','head', 'input','script', 'style']
-	full_stop = 0;
+
 	for t in text:
 		if t.parent.name not in blacklist:
 			output += '{} '.format(t)
-		full_stop +=1 
-		if(full_stop > 150):
 			break
-	
-	print("############")
-	print(url)
-	print(soup.title.string)
 
 	#print(output)
+
 	# returns an array of strings with text in each one
 	return soup.stripped_strings
 
@@ -50,6 +44,5 @@ def ripper(url):
 url = sys.argv[1]
 # url = "https://en.wikipedia.org/wiki/Pokémon"
 # print the URL we are going to get
-
 # rip that URL up
 ripper(url)

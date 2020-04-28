@@ -1,5 +1,17 @@
 # Jackalope Search Engine
 
+## Team Members
+
+*Meet the team members! Click each name to link to their GitHub profile*
+
+* [Aaron Arnold](https://github.com/aarno97)
+
+* [Sarah Dominy](https://github.com/SarahDominy)
+
+* [Anton Rakos](https://github.com/AntonAlbertovich)
+
+* [Jeremy Wenzel](https://github.com/jewenzel13)
+
 ## Project #1
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EYIbo-SmF4dInRB99eNkdocBLQ8KTgaqNQ77NkG1uapG7w?e=U4r214)
@@ -38,6 +50,8 @@
 
 *Project 4 includes a partial implementation* 
 
+* [Progress Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EQKyqpLryllFvHPJQlqWYroBbcrH_V4oVMFqiUFbTDkpYA?e=hIRmNP)
+
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EScOtsVUHyVHm9XJWX84KhUB4im59X-whqh54HFJzR7s3w?e=VtiXdq)
 
 * [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EZNEPoK_3QtPsOEKk5ilzj0B7Y6ojBGC4T0IecnWvLGSOw?e=BfKZ4N)
@@ -45,6 +59,10 @@
 ## Project #5
 
 *Project 5 will be the full implementation of Jackalope Search*
+
+* [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
+
+* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
 
 ### Special Considerations (Imported libraries/dependencies, references)
 

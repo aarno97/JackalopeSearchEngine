@@ -8,7 +8,7 @@ using namespace std;
 // run with $ ./runningcinthenineties
 
 int main() {
-        system("python3.7 Jackalope_server_gui.py"); //use this line if you have installed sshpass
+        system("cd JackalopeSearchEngine-master/GUI ; python3.7 Jackalope_server_gui"); //use this line if you have installed sshpass
 
 
         return 0;

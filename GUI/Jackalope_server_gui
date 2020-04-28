@@ -1,4 +1,3 @@
-
 from tkinter import *
 from tkinter import Tk, Label, font, Button
 import os
@@ -17,7 +16,7 @@ class SearchQuery:
                 self.entry.focus_set()
                 self.entrytext = ""
                 def save():
-                        entrytext = self.entry.get()
+                        os.system('cd .. ; python3.7 nlp_functions/initial_search_query.py ' + self.entry.get()+" ; python3.7 GUI/final_display.py" )
                 self.button = Button(master, text="Search", width=10, command=save)
                 self.pad.grid()
                 self.label.grid()
