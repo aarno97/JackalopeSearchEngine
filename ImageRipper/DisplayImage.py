@@ -3,6 +3,12 @@ Sources:
 https://www.daniweb.com/programming/software-development/code/440946/display-an-image-from-a-url-tkinter-python
 https://python-forum.io/Thread-Display-image-from-URL
 
+How to run this program in terminal:
+1. Open Terminal
+2. cd into the folder where LinkRipper is held. On the original machine this command was:
+% cd Documents/GitHub/JackalopeSearchEngine/ImageRipper
+3. run the program using the python3 command
+% python3 DisplayImage.py
 """
 
 import tkinter as tk
