@@ -43,9 +43,9 @@ def images(url):
     # print all links
     for reference in absolute:
         print(reference)
-    return
+    return absolute
 
 
-url = "https://unsplash.com"
+url = "https://en.wikipedia.org/w/index.php?title=Special:Search&search=Pokémon"
 print(url)
 images(url)
