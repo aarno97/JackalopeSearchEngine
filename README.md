@@ -71,5 +71,11 @@
   * [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
   
   * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for stripping HTML pages
+  
+  * [Xming](https://en.wikipedia.org/wiki/Xming) for displaying the GUI
+  
+  * [Windows Subsystem for Linux (WSL)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) for SSHing into server machines
+  
+  * [TkInter](https://wiki.python.org/moin/TkInter) for creating the GUI
 
   * [Apple's Privacy Page](https://www.apple.com/privacy/) for certain marked quotations in Project #2
