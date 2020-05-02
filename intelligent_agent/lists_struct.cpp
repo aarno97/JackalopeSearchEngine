@@ -24,7 +24,7 @@ struct Url_list_member{
 
 int removeDupWord(string str){
 int return_out;
-return_out = 0;
+return_out = 1;
 string word = ""; 
 for (auto x : str) 
 { 
@@ -49,7 +49,6 @@ for(std::string::iterator it = str.end()-1; it != str.begin(); --it) {
 			break;
 			}
 		else{
-			printf(":: %c\n", this_char);
 			this_num.insert(this_num.begin(), this_char);
 			}
 		}
@@ -58,14 +57,16 @@ for(std::string::iterator it = str.end()-1; it != str.begin(); --it) {
 	return return_val; 
 }
 
-int main (){
+int main(int argc, char** argv) {
 		
 	string line;
 	std::list<string> url_list;
 	std::list<string>::iterator it;
 
-	ifstream myfile ("example_nlp_output");
-
+	
+	//ifstream myfile ("example_nlp_output");
+	ifstream myfile (argv[1]);
+	
 	if (myfile.is_open())
 	{
 	while ( getline (myfile,line) )
@@ -219,14 +220,12 @@ int main (){
 			special = nlp_comp;
 			
 			next_url = 1;
-		
-			/*		
+			/*	
 			kill_switch++;
 			if (kill_switch > 0){
 				break;
 				}
 			*/
-			
 		}
 		
 	
@@ -253,14 +252,16 @@ int main (){
 			int hit_loc = 0;
 			for(int k = 0; k < sub_list.size(); k++){
 				k_var = *f_it;
+				/*
 				if(k_var > 0.0){
 					x_var++;
 				}
+				*/
 				y_var += k_var;
 				++f_it;
 				}
-			float raw_ave = y_var/x_var;
-			raw_ave = (raw_ave + 0.5)/2;
+			float raw_ave = 0.5;
+			//raw_ave = (raw_ave + 0.5)/2;
 			f_it = sub_list.begin();
 			
 			for(int k = 0; k < sub_list.size(); k++){
@@ -278,9 +279,6 @@ int main (){
 			
 			//cout<< " Positive ave :: "<< y_var/x_var << " \n";
 			//cout<< " Positive ave hits :: "<< z_var << " \n";
-			for (auto v : pos_hit_locs){
-				std::cout << v << " ";
-			}
 			hit_matrix.push_back(pos_hit_locs);	
 		//cout<<" \n";
 		a_it++;
@@ -371,33 +369,53 @@ int main (){
 	url_it = member_list.begin();
 	char node_s[2250];
 	std::list<int>::iterator b_sub_it;
-
+	std::list<int>::iterator c_sub_it;
 	char node_e[50];
 	char dis_nodes[50];
-
-
+	
+	string asp_run = argv[1];
+	string asp_output = argv[1];
+	asp_run = asp_run+".lp";
+	asp_output = asp_output + "_log";		
 	for (int i = 0; i< member_list.size(); i++){
 		Url_list_member this_member = *url_it;
 
 		b_it = this_member.b_list.begin();
+		c_it = this_member.b_list.begin();
 		int start_flag;
-		int end_flag;
+		int end_flag_b;
+		int end_flag_c;
 		int score_1;
 		int score_2;
+		this_member.jump_score = 0;
+		this_member.path_score = 0;
 		start_flag = 0;
-		end_flag = 0;
+		end_flag_b = 0;
+		end_flag_c = 0;
 		for (int j = 0; j < this_member.b_list.size(); j++){
 			list<int> this_b_list = *b_it;
 			b_sub_it = this_b_list.begin();
 			if(this_b_list.size() > 0){
-				end_flag = j;
+				end_flag_b = j;
 				}
 			++b_it;
 			}
+		for (int j = 0; j < this_member.c_list.size(); j++){
+			list<int> this_b_list = *c_it;
+			c_sub_it = this_b_list.begin();
+			if(this_b_list.size() > 0){
+				end_flag_c = j;
+				}
+			++c_it;
+			}
 		b_it = this_member.b_list.begin();
-		system("rm sample.lp");
-		system("rm asp_log");
-		std::ofstream asp_file("sample.lp");
+		c_it = this_member.c_list.begin();
+		string command_1, command_2;
+		command_1 = "rm " + asp_run;
+		system(command_1.c_str());
+		command_2 = "rm " + asp_output;		
+		system(command_2.c_str());
+		std::ofstream asp_file(asp_run);
 		sprintf(node_s, "#include <incmode>. ");
 		asp_file << node_s  <<endl;
 		sprintf(node_s, "#program base. ");
@@ -432,7 +450,7 @@ int main (){
 
 					sprintf(node_s, "connection(node_%i, node_%i, %i, 1).", node_1, node_2, node_d );
 					asp_file << node_s <<endl;
-					if (end_flag ==j){
+					if (end_flag_b ==j){
 						sprintf(node_s, "connection(node_%i, node_end, 1, 1).", node_2 );
 						asp_file << node_s <<endl;
 						}
@@ -441,6 +459,41 @@ int main (){
 	asp_file << node_s <<endl;
 				++b_it;
 				}
+			for (int j = 0; j < this_member.c_list.size(); j++){
+				list<int> this_c_list = *c_it;
+				start_flag++;
+				c_sub_it = this_c_list.begin();
+				for (int k = 0; k < this_c_list.size(); k++){
+					int node_1 = *c_sub_it;
+					++c_sub_it;
+					k++;
+					int node_2 = *c_sub_it;
+					++c_sub_it;
+					k++;
+					int node_d = *c_sub_it;
+					++c_sub_it;
+					
+					sprintf(node_s, "location(node_%i).", node_1);
+					asp_file << node_s <<endl;
+					sprintf(node_s, "location(node_%i).", node_2);
+					asp_file << node_s <<endl;
+					if (start_flag ==1){
+						sprintf(node_s, "connection(node_start, node_%i, 1, 2).", node_1 );
+						asp_file << node_s <<endl;
+						}
+
+					sprintf(node_s, "connection(node_%i, node_%i, %i, 2).", node_1, node_2, node_d );
+					asp_file << node_s <<endl;
+					if (end_flag_c ==j){
+						sprintf(node_s, "connection(node_%i, node_end, 1, 2).", node_2 );
+						asp_file << node_s <<endl;
+						}
+					}
+	sprintf(node_s, " " );
+	asp_file << node_s <<endl;
+				++c_it;
+				}
+
 			sprintf(node_s, "location(X) :- block(X).");
 			asp_file << node_s  <<endl;
 			sprintf(node_s, "holds(F,0) :- init(F). ");
@@ -479,15 +532,13 @@ int main (){
 			asp_file << node_s  <<endl;
 			asp_file.close();
 			//asp_file << " "<< this_member.url_str << endl;
-			std::ofstream out("asp_log");
+			std::ofstream out(asp_output);
 			out << "#"+this_member.url_str;
 			out.close();
 			string rate_line;
 			std::list<string> rate_list;
-			system("clingo --time-limit=4 sample.lp >> asp_log");
-
-
-			std::ifstream rate_out ("asp_log");
+			system(("clingo --time-limit=4 " + asp_run + ">> "+ asp_output).c_str() );
+			std::ifstream rate_out (asp_output);
 
 			if (rate_out.is_open()){
 			while ( std::getline(rate_out, rate_line) )
@@ -501,16 +552,15 @@ int main (){
 
 			score_1 = 0;
 			score_2 = 0;
-			printf("----------------------\n");
 			for(int i = 0; i < rate_list.size(); i++){
 				rate_line = *it;
 				std::string sub_rate = rate_line.substr(0,3);
 				std::string opt_rate = rate_line.substr(0,6);
-				if(sub_rate.compare("mov") ==0){
+				if(sub_rate.compare("mov") ==0 &&score_1 == 0 ){
 					score_1 = removeDupWord(rate_line);
 					printf("YES!! %i \n", score_1);
 					}
-				if(opt_rate.compare("Optimi") ==0){
+				if(opt_rate.compare("Optimi") ==0 && score_2 == 0){
 					score_2 = get_optimized(rate_line);
 					printf("YES!! %i \n", score_2);
 					}	
@@ -518,14 +568,26 @@ int main (){
 				}
 						
 
+			}
+			this_member.jump_score = score_1;
+			this_member.path_score = score_2;
+			*url_it = this_member;
+			++url_it;
+			
 		}
-		this_member.jump_score = score_1;
-		this_member.path_score = score_2;
-		*url_it = this_member;
-		++url_it;
-		
-	}
-
+	
+	url_it = member_list.begin();
+	system(("rm " + asp_output ).c_str() );
+	std::ofstream final_out(asp_output);
+	
+	for (int i = 0; i< member_list.size(); i++){
+		Url_list_member this_member = *url_it;
+		final_out << this_member.url_str << endl;
+		final_out << this_member.jump_score << endl;
+		final_out << this_member.path_score << endl;
+		url_it++;
+		}
+	final_out.close();
 	return 0;
 	
 	}			
