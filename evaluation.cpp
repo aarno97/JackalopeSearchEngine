@@ -417,8 +417,8 @@ void finalfunc(){
 		all_urls.push_back(temp_score);		
 		++score_it;	
 		}
-	write_list(all_urls, "output_list", 3, 1);
-	cout<< number_of_terms << endl;
+		write_list(all_urls, "output_list", 3, 1);
+		cout<< number_of_terms << endl;
 	}
 
 void* screenData( void *filename ) {
@@ -432,7 +432,6 @@ void* screenData( void *filename ) {
 		string url_name = this_name.substr(2,this_name.length());
 		system( ("SPACY_WARNING_IGNORE=W008 python3.7 nlp_functions/run_nlp.py '"+ search_term  +"' '"+ url_name +"' > nlp_"+url_val).c_str());
 		system( ("timeout 240 ./run_agent 'nlp_"+url_val+"'").c_str() );
-		//system( ("timeout 2 python3.7 TextRipper/TextRipper.py " + url_link + " >> logged_results"+url_val + " 2>&1").c_str() );
 		
 		
 	}	
