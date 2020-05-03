@@ -12,11 +12,14 @@ How to run this program in terminal:
 """
 
 import tkinter as tk
+import urllib
+
 from PIL import ImageTk, Image
 import os
 import requests
 from io import BytesIO
 from ImageRipper import images
+from LinkValidate import validate
 import ImageSize
 
 
@@ -31,13 +34,17 @@ def display(imageurl):
     root.mainloop()
 
 
-url = "https://en.wikipedia.org/w/index.php?title=Special:Search&search=Pokémon"
+url = "https://requests.readthedocs.io/en/master/user/quickstart/"
 print(url)
 links = images(url)
 for image in links:
     print(image)
     # size returns (width, height)
-    width, height = ImageSize.size(image)
-    if width > 100 and height > 100:
+    try:
+        width, height = ImageSize.size(image)
+    except urllib.error.HTTPError:
+        print("Error, website refused to allow image to be taken.")
+        continue
+    if width > 100 and height > 100 and validate(image):
         display(image)
 print("done")
