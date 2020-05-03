@@ -17,6 +17,7 @@ import os
 import requests
 from io import BytesIO
 from ImageRipper import images
+import ImageSize
 
 
 def display(imageurl):
@@ -34,5 +35,9 @@ url = "https://en.wikipedia.org/w/index.php?title=Special:Search&search=Pokémon
 print(url)
 links = images(url)
 for image in links:
-    display(image)
+    print(image)
+    # size returns (width, height)
+    width, height = ImageSize.size(image)
+    if width > 100 and height > 100:
+        display(image)
 print("done")

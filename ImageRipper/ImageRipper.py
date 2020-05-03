@@ -40,12 +40,12 @@ def images(url):
     for image in nodupes:
         absolute.append(urljoin(url, image))
 
-    # print all links
-    for reference in absolute:
-        print(reference)
+    # to print all links before returning list, uncomment the section below
+    # for reference in absolute:
+    #     print(reference)
     return absolute
 
 
 url = "https://en.wikipedia.org/w/index.php?title=Special:Search&search=Pokémon"
-print(url)
+# print(url)
 images(url)
