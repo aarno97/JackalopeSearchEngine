@@ -3,19 +3,18 @@ import cupy.cuda
 import sys
 
 
-
-#command1 = sys.argv[1]
-#command2 = sys.argv[2]
+command1 = sys.argv[1]
+command2 = sys.argv[2]
 
 # interpret via: $ SPACY_WARNING_IGNORE=W008 python3.7 run_nlp.py
+# SPACY_WARNING_IGNORE=W008 python3.7 run_nlp.py "Texas Tech University" "logged_results01" >> nlp_01
 
 nlp = spacy.load("en_core_web_lg")  # make sure to use larger model!
-#data_0 = nlp(command1)
-data_0 = nlp("Texas Tech University")
+data_0 = nlp(command1)
+#data_0 = nlp("Texas Tech University")
 
-#filepath = command2
-filepath = "logged_results01" 
-
+filepath = command2
+#ilepath = "logged_results01" 
 
 with open(filepath) as fp:
 	line = fp.readline()
@@ -39,10 +38,12 @@ with open(filepath) as fp:
 							page_url = token1.text
 							url_set = 1
 							webpage_word_position = 0
-						print(page_url)
-						print(query_word_position) 
-						print(webpage_word_position)
-						print(token1.similarity(token2))
+						comp_val = token1.similarity(token2)
+						if(comp_val > 0.30):	
+							print(page_url)
+							print(query_word_position) 
+							print(webpage_word_position)
+							print(comp_val)
 						query_word_position += 1
 					
 					webpage_word_position += 1

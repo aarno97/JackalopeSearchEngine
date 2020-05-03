@@ -26,9 +26,9 @@
 
 #### Recommended Specs for the computer acting as a server: 
 
-* Processor: You will need a minimum of an i5 7th gen processor or comparable 6 thread processor
+* Processor: You will need a minimum of an i5 7th Gen processor or comparable 6-thread processor
 
-* GPU: You will need an nvidia graphics card, 900 series or newer is preferable
+* GPU: You will need an Nvidia graphics card, 900 Series or newer is preferable
 
 * RAM: You will need 8GB or more of RAM
 
@@ -44,7 +44,7 @@
 
 * To pull necessary files and other related items, pull the GitHub by performing: `git clone <url>`
 
-* For this project that piece of code would be: `git clone https://github.com/apape97/CS4366-SeniorProject`
+* For this project that piece of code would be: `git clone https://github.com/aarno97/JackalopeSearchEngine`
 
 * To update your Git Repository on your local machine: `git pull` while in the directory of the repository. 
 
@@ -62,7 +62,7 @@
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
 
-* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
+* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EQANk8OInbVNsYLc5lM-lTcBGXOJPbV4EL-hzqiTRT11FQ?e=XSbicm)
 
 ### Special Considerations (Imported libraries/dependencies, references)
 
@@ -71,5 +71,11 @@
   * [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
   
   * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for stripping HTML pages
+  
+  * [Xming](https://en.wikipedia.org/wiki/Xming) for displaying the GUI
+  
+  * [Windows Subsystem for Linux (WSL)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) for SSHing into server machines
+  
+  * [TkInter](https://wiki.python.org/moin/TkInter) for creating the GUI
 
   * [Apple's Privacy Page](https://www.apple.com/privacy/) for certain marked quotations in Project #2
