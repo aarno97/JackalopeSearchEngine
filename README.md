@@ -70,7 +70,7 @@
   
   * [Pillow](https://pillow.readthedocs.io/en/stable/) for image processing!
   
-  *Please make sure your Pillow library is updated `python3 -m pip install --upgrade pip` and `python3 -m pip install --upgrade pillow`*
+  *Please make sure your Pillow library is updated by running `python3 -m pip install --upgrade pip` and `python3 -m pip install --upgrade pillow` in your terminal*
 
   * [Scrapy](https://docs.scrapy.org/en/latest/index.html) for webcrawling
   
