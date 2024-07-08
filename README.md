@@ -16,13 +16,13 @@
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EYIbo-SmF4dInRB99eNkdocBLQ8KTgaqNQ77NkG1uapG7w?e=U4r214)
 
-* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EQSauAZisp5Hui0OJznSGe4BaGH1aIgYUkoqSPMajcw1qw?e=a1i6V1)
+* [Presentation Slides](https://github.com/aarno97/JackalopeSearchEngine/blob/master/Jackalope%20Slides%201.pdf)
 
 ## Project #2
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/r/personal/jessica_brisbois_ttu_edu/_layouts/15/Doc.aspx?sourcedoc=%7B342ACA17-A367-4FDB-B21E-FB91911BE983%7D&file=Report%202.docx&action=default&mobileredirect=true)
 
-* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EStJYsin1ApJsFn9e5WEtOcBWH6NXn9LiEbjIF30A70fSg?e=oYg02R) 
+* [Presentation Slides](https://github.com/aarno97/JackalopeSearchEngine/blob/master/Jackalope%20Slides%202.pdf) 
 
 #### Recommended Specs for the computer acting as a server: 
 
@@ -36,7 +36,7 @@
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EZDeyEKorCdDlFhIQcQjQY0BYVR7MDDdVxlUkxmrKiQeVQ?e=fJbi0s)
 
-* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EbwKqI9LX0BJsfz7PkISD0gB8wSEm5D94NKQdl8CgUgLng?e=gzuRBy)
+* [Presentation Slides](https://github.com/aarno97/JackalopeSearchEngine/blob/master/Jackalope%20Slides%203.pdf)
 
 ## Project #4
 
@@ -54,7 +54,7 @@
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/EScOtsVUHyVHm9XJWX84KhUB4im59X-whqh54HFJzR7s3w?e=VtiXdq)
 
-* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EZNEPoK_3QtPsOEKk5ilzj0B7Y6ojBGC4T0IecnWvLGSOw?e=BfKZ4N)
+* [Presentation Slides](https://github.com/aarno97/JackalopeSearchEngine/blob/master/Jackalope%20Slides%204.pdf)
 
 ## Project #5
 
@@ -62,7 +62,7 @@
 
 * [Project Report](https://texastechuniversity-my.sharepoint.com/:w:/g/personal/aaron_arnold_ttu_edu/ETtuoCXk3QtFrP0r8xaKZ_cBX6Jgy25vRV8Xf4rPDUGWdg?e=FLQAFl)
 
-* [Presentation Slides](https://texastechuniversity-my.sharepoint.com/:p:/g/personal/aaron_arnold_ttu_edu/EQANk8OInbVNsYLc5lM-lTcBGXOJPbV4EL-hzqiTRT11FQ?e=XSbicm)
+* [Presentation Slides](https://github.com/aarno97/JackalopeSearchEngine/blob/master/Jackalope%20Slides%205.pdf)
 
 ### Special Considerations (Imported libraries/dependencies, references)
 
